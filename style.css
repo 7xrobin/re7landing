@@ -58,3 +58,24 @@ body {
     transform: rotateZ(360deg);
   }
 }
+
+
+#contact {
+	left: 50%;
+	margin-left: -10em;
+	margin-top: 600px;
+	position: relative;
+	width: 20em;
+}
+
+#contact input {
+	display: block;
+	width: 100%;
+}
+
+#contact input[type="submit"] {
+	left: 50%;
+	margin-left: -5em;
+	position: relative;
+	width: 10em;
+}
