@@ -3,8 +3,9 @@ body{
 
 }
 img{
-	max-width: 500px;
-	margin-left: -7%;
+	max-width: 300px;
+	margin-left: 3%;
+    margin-top: 7%;
 }
 h1{
 	margin-top: 17%;
@@ -27,14 +28,11 @@ body {
 .loading {
   position: absolute;
   left: 50%;
-  top: 10%;
   transform: translateX(-50%);
-  margin: -60px 0 0 -60px;
-  background: #fff;
-  width: 400px;
-  height: 400px;
+  background: #ffffff24;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
-  border: 10px solid #19bee1;
 }
 .loading:after {
   content: '';
