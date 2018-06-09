@@ -59,6 +59,9 @@ body {
 
 
 #contact {
+	/* Hidden until the new template arrives. */
+	display: none;
+
 	left: 50%;
 	margin-left: -10em;
 	margin-top: 600px;
@@ -66,15 +69,10 @@ body {
 	width: 20em;
 }
 
-#contact input {
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
 	box-sizing: border-box;
 	display: block;
 	width: 100%;
-}
-
-#contact input[type="submit"] {
-	left: 50%;
-	margin-left: -5em;
-	position: relative;
-	width: 10em;
 }

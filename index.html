@@ -17,14 +17,23 @@
 
 	<h1>Aguarde, estamos construindo um novo futuro.</h1>
 
-    <!--<form id="contact" method="post" action="/contact.php">-->
-        <!--<legend for="name">Nome</legend>-->
-        <!--<input type="text" name="name" id="name"/>-->
+    <form id="contact" method="post" action="/contact.php">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name"/>
 
-        <!--<legend for="email">E-mail</legend>-->
-        <!--<input type="email" name="email" id="email"/>-->
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email"/>
 
-        <!--<input type="submit" value="Registrar"/>-->
-    <!--</form>-->
+        <legend>Interesse</legend>
+        <ul>
+            <li><label><input type="checkbox" name="interest-user"/>Participar como Usuário</label></li>
+            <li><label><input type="checkbox" name="interest-partner"/>Participar como Parceiro</label></li>
+        </ul>
+
+        <legend for="comment">Comentário</legend>
+        <textarea name="comment" id="comment" rows="5" cols="50"></textarea>
+
+        <input type="submit" value="Registrar"/>
+    </form>
 </body>
 </html>
